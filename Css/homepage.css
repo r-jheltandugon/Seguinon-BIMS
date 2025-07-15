@@ -1,0 +1,80 @@
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.vh-100 {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	width: 100%;
+	max-width: 400px;
+}
+
+#navbarNav ul li .nav-link {
+	margin-left: 50px;
+}
+
+input[type=text]{
+	text-align:center;
+	width: 90%;
+	padding: 12px 6px;
+	color: #444444;
+	border:  #3d4ee7;
+	background-color: #cbd9f7;
+	margin-left:5%;
+	margin-right: 5%;	
+}
+
+input[type=password]{
+	text-align:center;
+	width: 90%;
+	padding: 12px 6px;
+	color: #444444;
+	border:  #3d4ee7;
+	background-color: #cbd9f7;
+	margin-top:2%;
+	margin-left:5%;
+	margin-right: 5%;	
+}
+
+input[type=text]:focus {
+	cursor:pointer;
+	background-color: white;
+	border-color:#3d4ee7;
+	border-style: solid;
+}
+
+input[type=submit]:hover {
+	background-color: #3d4ee7;
+	border: none;
+	color: white;
+	-webkit-transition:background 0.5s ease-in-out;
+	-moz-transition:background 0.5s ease-in-out;
+	transition:background-color 0.5s ease-in-out;
+}
+
+input[type=submit] {
+	background-color: #2d2d2d;
+	border: none;
+	padding: none;
+	color: white;	
+	width: 90%;
+	height: 45px;
+	 margin-top:5%;
+	margin-left:5%;
+	margin-right: 5%;
+	border-radius: 7px;
+}
+
+input[type=password]:focus {
+	cursor:pointer;
+	background-color: white;
+	border-color:#3d4ee7;
+	border-style: solid;
+}
